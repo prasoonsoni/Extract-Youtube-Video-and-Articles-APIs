@@ -1,0 +1,4 @@
+serpapi
+flask
+gunicorn
+requests
