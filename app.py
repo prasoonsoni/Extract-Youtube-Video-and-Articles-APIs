@@ -4,6 +4,14 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
+@app.route("/")
+def welcome():
+    return(
+        "<h1>Welcome to API.</h1>"+
+        "<p>/getvideos - to get video links.</p>"+
+        "<p>/getarticles - to get article links.</p>"
+    )
+
 @app.route("/getvideos", methods=['POST'])
 def get_video_results():
     data = request.json
