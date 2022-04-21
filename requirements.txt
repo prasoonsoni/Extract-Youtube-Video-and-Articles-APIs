@@ -1,4 +1,4 @@
-serpapi
+google-search-results
 flask
 gunicorn
 requests
