@@ -1,4 +1,8 @@
 # Extract-Youtube-Video-and-Articles-APIs
+Creators:
+1. Prasoon Soni
+2. Rishi Kaushal
+
 An API for fetching YouTube videos and articles with the particular keywords given by user.
 ```
 BASE_URL = https://happify-me-api.herokuapp.com
